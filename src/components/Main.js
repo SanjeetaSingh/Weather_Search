@@ -8,7 +8,7 @@ import Data from "./Data"
 import Context from "../Context"
 import ErrorMessage from './ErrorMessage'
 import TimeDate from "./Time_Date"
-
+import '../styles/pages/main.css'
    
 const Main = () => {
 
