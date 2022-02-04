@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import '../styles/pages/search.css'
-
 import Context from "../Context";
 
 const WeatherSearch = () => {
