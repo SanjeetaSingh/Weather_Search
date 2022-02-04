@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import Context from "../Context";
-
+import '../styles/pages/data.css'
 
 const Data = () => {
 
@@ -10,33 +10,15 @@ const Data = () => {
 
     return (
         <div>
-            <span>
-                <div>
-                    <p>Weather forecast for <span>{cityName}</span></p>
-                </div>
-            </span>
+            <div className="container">
+                <p>Weather forecast for <span>{cityName}</span></p>
+            </div>
 
-            <div>
-                <span>
-                    <p>Temperature</p>
-                    <p>{temp}</p>
-                </span>
-            </div>
-            <div>
-                <span>
-                    <p>Humidity</p>
-                    <p>{humidity}</p>
-                </span>
-            </div>
-            <div>
-                <span>
-                    <p>Pressure</p>
-                    <p>{pressure}</p>
-                </span>
+            <div className="temp">
+                <p>Temperature &emsp;&emsp;&emsp;&emsp; Humidity  &emsp;&emsp;&emsp;&emsp;Pressure<br />
+                <span>&emsp;&nbsp;&nbsp;{temp} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  {humidity}  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;{pressure}</span></p>
             </div>
         </div>
-
-
     )
 }
 
