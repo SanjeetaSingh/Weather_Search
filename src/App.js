@@ -1,8 +1,13 @@
 import './App.css';
+import Wrap from './components/Wrap';
+import Main from './components/Main';
+
 
 function App() {
   return (
-    <div></div>
+    <Wrap>
+      <Main />
+    </Wrap>
   );
 }
 
