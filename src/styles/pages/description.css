@@ -1,0 +1,12 @@
+.dec {
+   align-content: center;
+  }
+  
+.decVal {
+    font-size: 16px;
+}
+
+div.containers {
+    margin-left: 42%;
+    margin-top: 2%;
+}

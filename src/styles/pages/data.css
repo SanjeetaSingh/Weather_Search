@@ -1,8 +1,43 @@
 div.container {
-    margin-left: 33%;
+    margin-left: 28%;
+    margin-top: 2%;
 }
 
 div.temp {
   margin-left:25%;
   margin-top: 2%;
+}
+
+p, .p {
+  font-family: ‘Oswald’, sans-serif;
+}
+
+.element {
+  position: relative;   
+  left: 37%;         
+  margin-top: 2%;
+}
+
+.hum {
+  margin-left: 10%;
+}
+
+.temperture {
+  margin-left: 10%;
+}
+
+.pressure {
+  margin-left: 10%;
+}
+
+.pressureVal {
+  font-size: 16px;
+}
+
+.humVal {
+  font-size: 16px;
+}
+
+.tempVal {
+  font-size: 16px;
 }
