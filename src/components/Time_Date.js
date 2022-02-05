@@ -7,7 +7,7 @@ const Time_Date = () => {
 
     return (
         <div className="timedate">
-            {`${dates.toLocaleDateString()} - ${dates.toLocaleTimeString()}`}
+            <h2> {`${dates.toLocaleDateString()} - ${dates.toLocaleTimeString()}`}</h2>
         </div>
     )
 }

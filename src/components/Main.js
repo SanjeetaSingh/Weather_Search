@@ -8,15 +8,18 @@ import Data from "./Data"
 import Context from "../Context"
 import ErrorMessage from './ErrorMessage'
 import TimeDate from "./Time_Date"
+import Description from "./Description"
 import '../styles/pages/main.css'
-   
+
 const Main = () => {
 
     const api = process.env.REACT_APP_API_KEY
-    
+
     const [weather, setWeather] = useState()
     const [cityName, setCityName] = useState()
     const [errMsg, setErrMsg] = useState()
+    const [des, setDes] = useState()
+
 
     const api_call = async e => {
 
@@ -34,18 +37,20 @@ const Main = () => {
 
         setWeather(response.data.main)
         setCityName(response.data.name)
+        setDes(response.data.weather[0].main)
         setErrMsg(null)
+        console.log(response)
+   
     }
-
-    weather && console.log(weather)
 
     return (
         <div className="main">
             <Header />
             <Contents>
                 <TimeDate />
-                <Context.Provider value={{ api_call, weather, cityName }}>
+                <Context.Provider value={{ api_call, weather, cityName, des }}>
                     <WeatherSearch />
+                    {des && <Description />}
                     {weather && <Data />}
                     {errMsg && <ErrorMessage errMsg={errMsg} />}
                 </Context.Provider>
