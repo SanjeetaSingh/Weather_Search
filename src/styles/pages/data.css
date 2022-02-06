@@ -1,11 +1,9 @@
 div.container {
-    margin-left: 28%;
+    text-align: center;
     margin-top: 2%;
-}
-
-div.temp {
-  margin-left:25%;
-  margin-top: 2%;
+    color: gray;
+    position: fixed;
+    margin-left: 28.5%;
 }
 
 p, .p {
@@ -13,21 +11,9 @@ p, .p {
 }
 
 .element {
-  position: relative;   
-  left: 37%;         
-  margin-top: 2%;
-}
-
-.hum {
-  margin-left: 10%;
-}
-
-.temperture {
-  margin-left: 10%;
-}
-
-.pressure {
-  margin-left: 10%;
+  position: relative;          
+  color: gray;
+  text-align: center;
 }
 
 .pressureVal {
