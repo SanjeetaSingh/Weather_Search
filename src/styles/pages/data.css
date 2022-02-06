@@ -1,29 +1,27 @@
 div.container {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 7%;
     color: gray;
     position: fixed;
-    margin-left: 28.5%;
+    margin-left: 29%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p, .p {
-  font-family: ‘Oswald’, sans-serif;
-}
-
-.element {
-  position: relative;          
-  color: gray;
-  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .pressureVal {
   font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .humVal {
   font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .tempVal {
   font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
 }

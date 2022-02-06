@@ -5,17 +5,12 @@ import "../styles/pages/data.css"
 
 const Data = () => {
 
-    const { weather, cityName } = useContext(Context)
+    const { weather } = useContext(Context)
     const { temp, humidity, pressure } = weather
 
     return (
         <div>
-            <span>
-                <div className="element">
-                    <h4>Weather forecast for <span>{cityName}</span></h4>
-                </div>
-            </span>
-
+        
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-6 col-sm-2">
