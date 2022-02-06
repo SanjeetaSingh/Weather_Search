@@ -2,11 +2,11 @@
     margin-top: 23%;
     text-align: center;
     margin-left: 5px;
-    color: gray;
+    color: #3D3D3D;
 }
 
 a, a:link, a:visited  {
-    color: gray;
+    color: #3D3D3D;
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
 }

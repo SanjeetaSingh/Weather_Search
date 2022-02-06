@@ -1,6 +1,6 @@
 .dec {
    text-align: center;
-   color: gray;
+   color: #3D3D3D;
   }
   
 .decVal {
@@ -12,14 +12,14 @@
 div.containers {
     margin-left: 44%;
     text-align: center;
-    color: gray;
+    color: #3D3D3D;
     position: fixed;
     margin-top: 1%;
 }
 
 .element {
     position: relative;          
-    color: gray;
+    color: #3D3D3D;
     text-align: center;
     margin-top: 2%;
   }
