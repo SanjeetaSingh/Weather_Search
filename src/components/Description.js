@@ -12,7 +12,7 @@ const Description = () => {
         <div>
             <span>
                 <div className="element">
-                    <h4>Weather forecast for <span><strong>{cityName}</strong></span></h4>
+                    <h3><span><strong>{cityName}</strong></span></h3>
                 </div>
             </span>
             <div class="containers">

@@ -16,13 +16,13 @@ const Data = () => {
                     <div class="col-6 col-sm-2">
                         <h4><strong>Temperature</strong></h4>
                         <div className="temperture">
-                            <p className="tempVal">{temp}</p>
+                            <p className="tempVal">{temp}&deg;C</p>
                         </div>
                     </div>
                     <div class="col-6 col-sm-2">
                         <h4><strong>Humidity</strong></h4>
                         <div className="hum">
-                            <p className="humVal">{humidity}</p>
+                            <p className="humVal">{humidity}%</p>
                         </div>
                     </div>
                     <div class="col-6 col-sm-2">
