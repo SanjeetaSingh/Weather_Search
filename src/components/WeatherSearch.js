@@ -11,7 +11,7 @@ const WeatherSearch = () => {
             <div class="input-group">
                 {/* <div class="input-append"> */}
                 <form class="form-inline" onSubmit={api_call}>
-                    <input type="text" class="col-auto my-1" name="location" placeholder="Search a Location"></input>
+                    <input type="text" class="col-auto my-1" name="location" placeholder="Search a City"></input>
                     <span class="input-group-btn">
                         <button class="btn btn-default" type="btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="gray" class="bi bi-arrow-right" viewBox="0 0 16 16">
