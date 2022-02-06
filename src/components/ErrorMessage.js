@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/error.css"
 
 const ErrorMessage = ({ errMsg }) => {
     return (
-        <div>
+        <div class="alert alert-danger" role="alert">
             {errMsg}
         </div>
     )
