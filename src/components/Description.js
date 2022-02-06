@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 
 import Context from "../Context";
-import '../styles/pages/description.css'
+import '../styles/description.css'
 
 const Description = () => {
     const { des, icon, cityName } = useContext(Context)

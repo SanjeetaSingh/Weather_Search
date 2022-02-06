@@ -1,6 +1,6 @@
 import React from "react"
 
-import '../styles/pages/wrap.css'
+import '../styles/wrap.css'
 const Wrap = (props) => {
 
     return (

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import Context from "../Context";
-import "../styles/pages/data.css"
+import "../styles/data.css"
 
 const Data = () => {
 

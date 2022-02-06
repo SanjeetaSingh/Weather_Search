@@ -10,7 +10,7 @@ import ErrorMessage from './ErrorMessage'
 import TimeDate from "./Time_Date"
 import Description from "./Description"
 import Footer from "./Footer"
-import '../styles/pages/main.css'
+import '../styles/main.css'
 
 const Main = () => {
 

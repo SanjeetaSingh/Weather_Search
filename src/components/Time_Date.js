@@ -1,6 +1,7 @@
 import React from "react";
 
-import '../styles/pages/timedate.css'
+import '../styles/timedate.css'
+
 const Time_Date = () => {
 
     const dates = new Date()
