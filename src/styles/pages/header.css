@@ -1,5 +1,9 @@
 div.header {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
     color: gray;
+}
+
+.display-3 {
+    font-family: 'Courier New', Courier, monospace;
 }
