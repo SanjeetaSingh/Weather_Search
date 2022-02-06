@@ -9,6 +9,7 @@ import Context from "../Context"
 import ErrorMessage from './ErrorMessage'
 import TimeDate from "./Time_Date"
 import Description from "./Description"
+import Footer from "./Footer"
 import '../styles/pages/main.css'
 
 const Main = () => {
@@ -42,7 +43,7 @@ const Main = () => {
         setIcon(response.data.weather[0].icon)
         setErrMsg(null)
         console.log(response)
-   
+
     }
 
     return (
@@ -50,12 +51,13 @@ const Main = () => {
             <Header />
             <Contents>
                 <TimeDate />
-                <Context.Provider value={{ api_call, weather, cityName, des, icon}}>
+                <Context.Provider value={{ api_call, weather, cityName, des, icon }}>
                     <WeatherSearch />
                     {des && <Description />}
                     {weather && <Data />}
                     {errMsg && <ErrorMessage errMsg={errMsg} />}
                 </Context.Provider>
+                <Footer />
             </Contents>
         </div>
     )

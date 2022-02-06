@@ -1,0 +1,12 @@
+.footer {
+    margin-top: 20%;
+    text-align: center;
+    margin-left: 5px;
+    color: gray;
+}
+
+a, a:link, a:visited  {
+    color: gray;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
