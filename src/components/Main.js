@@ -19,6 +19,7 @@ const Main = () => {
     const [cityName, setCityName] = useState()
     const [errMsg, setErrMsg] = useState()
     const [des, setDes] = useState()
+    const [icon, setIcon] = useState()
 
 
     const api_call = async e => {
@@ -38,6 +39,7 @@ const Main = () => {
         setWeather(response.data.main)
         setCityName(response.data.name)
         setDes(response.data.weather[0].main)
+        setIcon(response.data.weather[0].icon)
         setErrMsg(null)
         console.log(response)
    
@@ -48,7 +50,7 @@ const Main = () => {
             <Header />
             <Contents>
                 <TimeDate />
-                <Context.Provider value={{ api_call, weather, cityName, des }}>
+                <Context.Provider value={{ api_call, weather, cityName, des, icon}}>
                     <WeatherSearch />
                     {des && <Description />}
                     {weather && <Data />}
