@@ -48,6 +48,7 @@ const Main = () => {
 
     return (
         <div className="main">
+            {errMsg && <ErrorMessage errMsg={errMsg} />}
             <Header />
             <Contents>
                 <TimeDate />
@@ -55,7 +56,7 @@ const Main = () => {
                     <WeatherSearch />
                     {des && <Description />}
                     {weather && <Data />}
-                    {errMsg && <ErrorMessage errMsg={errMsg} />}
+                    
                 </Context.Provider>
                 <Footer />
             </Contents>
