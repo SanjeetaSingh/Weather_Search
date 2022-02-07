@@ -49,11 +49,12 @@ const Main = () => {
     return (
         <div className="main">
             {errMsg && <ErrorMessage errMsg={errMsg} />}
-            <Header />
+
             <Contents>
-                <TimeDate />
+               
                 <Context.Provider value={{ api_call, weather, cityName, des, icon }}>
                     <WeatherSearch />
+                    <TimeDate />
                     {des && <Description />}
                     {weather && <Data />}
                     
