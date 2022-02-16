@@ -9,3 +9,6 @@ A React dashboard that is hosted on Heroku that lets users search any city which
 
 ## Cloud Platform 
 - Heroku: I used Heroku to deploy my React dashboard
+
+## Style
+- Bootstap: An open source CSS framework that helped to style the dashboard
