@@ -1,9 +1,9 @@
 div.container {
     text-align: center;
-    margin-top: 7%;
+    /* margin-top: 3%; */
     color: #3D3D3D;
     position: fixed;
-    margin-left: 29%;
+    margin-left: 17%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -25,3 +25,32 @@ p, .p {
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.dec {
+  text-align: center;
+  color: #3D3D3D;
+  margin-top: 1%;
+ }
+ 
+.decVal {
+   font-size: 16px;
+   font-family: 'Courier New', Courier, monospace;
+   margin-bottom: 2%;
+   margin-left: 5%;
+}
+
+div.containers {
+   margin-left: 36%;
+   text-align: center;
+   /* color: #3D3D3D; */
+   position: fixed;
+   /* margin-top: 1%; */
+}
+
+.element {
+   position: relative;          
+   color: #3D3D3D;
+   margin-top: 3%;
+   margin-left: -21%;
+   text-align: center;
+ }
