@@ -3,12 +3,21 @@ import React, { useContext } from "react";
 import Context from "../Context";
 import "../styles/data.css"
 
+
+/**
+ * This file returns the data that is pulled from the 
+ * api and shows it on the dashboard. 
+ * 
+ * @returns the data from the API
+ */
 const Data = () => {
 
+    // The weather data pull from the api for the given location
     const { weather } = useContext(Context)
     const { temp, humidity, pressure } = weather
     const { des, icon, cityName } = useContext(Context)
 
+    // The icon for the weather description pulled from the API
     const source = 'http://openweathermap.org/img/wn/' + icon + '@2x.png'
 
     return (

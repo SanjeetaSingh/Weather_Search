@@ -1,6 +1,5 @@
 div.container {
     text-align: center;
-    /* margin-top: 3%; */
     color: #3D3D3D;
     position: fixed;
     margin-left: 17%;
@@ -42,9 +41,7 @@ p, .p {
 div.containers {
    margin-left: 36%;
    text-align: center;
-   /* color: #3D3D3D; */
    position: fixed;
-   /* margin-top: 1%; */
 }
 
 .element {

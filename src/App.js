@@ -1,13 +1,15 @@
 import './App.css';
-import Wrap from './components/Wrap';
 import Main from './components/Main';
 
-
+/**
+ * Calls the main function to display 
+ * the dashboard.
+ * 
+ * @returns the dashboard
+ */
 function App() {
   return (
-    <Wrap>
       <Main />
-    </Wrap>
   );
 }
 

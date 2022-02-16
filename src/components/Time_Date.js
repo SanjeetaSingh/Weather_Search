@@ -2,6 +2,12 @@ import React from "react";
 
 import '../styles/timedate.css'
 
+/**
+ * Function returns current date and time
+ * of the users. 
+ * 
+ * @returns time and data
+ */
 const Time_Date = () => {
 
     const dates = new Date()

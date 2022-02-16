@@ -2,6 +2,12 @@ import React from "react";
 
 import '../styles/footer.css'
 
+/**
+ * This function return the footer which inludes
+ * my githib, linkedin and name.
+ * 
+ * @returns my details
+ */
 const Footer = () => {
     return (
         <div class="footer">
