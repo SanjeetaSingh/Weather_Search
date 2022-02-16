@@ -11,7 +11,7 @@ const WeatherSearch = () => {
             <div class="input-group">
                
                 <form class="form-inline" onSubmit={api_call}>
-                    <input type="search" class="inputSearch" name="location" placeholder="Search..."></input>
+                    <input type="search" class="inputSearch" name="location" placeholder="Search a City..."></input>
                 </form>
      
 
