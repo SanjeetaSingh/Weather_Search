@@ -1,14 +1,12 @@
 import React, { useState } from "react"
 import axios from "axios"
 
-import Header from "./Header"
 import Contents from "./Contents"
 import WeatherSearch from "./WeatherSearch"
 import Data from "./Data"
 import Context from "../Context"
 import ErrorMessage from './ErrorMessage'
 import TimeDate from "./Time_Date"
-import Description from "./Description"
 import Footer from "./Footer"
 import '../styles/main.css'
 
@@ -51,13 +49,12 @@ const Main = () => {
             {errMsg && <ErrorMessage errMsg={errMsg} />}
 
             <Contents>
-               
+
                 <Context.Provider value={{ api_call, weather, cityName, des, icon }}>
-                    <WeatherSearch />
                     <TimeDate />
-                    {des && <Description />}
+                    <WeatherSearch />
                     {weather && <Data />}
-                    
+
                 </Context.Provider>
                 <Footer />
             </Contents>
